@@ -1,0 +1,1 @@
+can make border line squiggly to make it seem more varied. Do this when doing terrain generator later so the line matches the river twists
