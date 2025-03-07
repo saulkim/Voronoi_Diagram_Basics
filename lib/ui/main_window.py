@@ -24,11 +24,11 @@ class Main_Screen(QWidget):
         main_layout = QHBoxLayout()
 
         left_layout = QVBoxLayout()
-        self.button = QPushButton("Generate new Tileset")
+        self.button = QPushButton("Generate tileset")
         self.button.clicked.connect(self.plot_voronoi)
         left_layout.addWidget(self.button)
 
-        self.button2 = QPushButton("Generate new Icon")
+        self.button2 = QPushButton("Generate icon")
         self.button2.clicked.connect(self.plot_voronoi_icon)
         left_layout.addWidget(self.button2)
 
